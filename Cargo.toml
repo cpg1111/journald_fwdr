@@ -1,0 +1,13 @@
+[package]
+name = "journald_fwdr"
+version = "0.1.0"
+authors = ["Christian Grabowski <cgrabowski@ns1.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+docopt = "1"
+serde = { version = "1", features = ["derive"] }
+tokio = { version = "0.3.1", features = ["full"] }
+futures = { version = "0.3.6" }
